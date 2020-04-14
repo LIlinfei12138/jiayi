@@ -1,0 +1,57 @@
+body{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+li{
+	display:inline-block;
+}
+a{
+	text-decoration: none;
+}
+@font-face{
+	font-family:"icon";
+	src:url('../font/glyphicons-halflings-regular.eot'),
+		url('../font/glyphicons-halflings-regular.ttf'),
+		url('../font/glyphicons-halflings-regular.woff'),
+		url('../font/glyphicons-halflings-regular.woff2');
+}
+/* 弹性两边对齐 */
+.flex-justify-content{
+	display:flex;
+	justify-content: space-between;
+}
+/* 弹性换行 */
+.flex-wrap{
+	flex-wrap: wrap;
+}
+/* 亮度50% */
+.filter{
+	filter: brightness(50%);
+}
+.color-danhong{
+	color:#f77c7f !important;
+}
+/* 宽度270 */
+.width-270{
+	width:270px;
+}
+/* 相对定位 */
+.relative{
+	position:relative;
+}
+/* 居中 */
+.text-align{
+	text-aling:center;
+}
+.width-247px{
+	width:247px;
+	height:247px;
+}
+/* 斜线 */
+.xiexian{
+	display: inline-block;
+	margin-left: 15px;
+}

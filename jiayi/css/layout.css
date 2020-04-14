@@ -1,0 +1,32 @@
+	/* 导航栏 */
+header {
+	height: 36px;
+	background-color: #3e3a39;
+	color:white;
+}
+
+header>div {
+	display:flex;
+	width:1080px;
+	height:100%;
+	margin:0 auto;
+	justify-content:space-between;
+	align-items:center;
+}
+/* 第二块 */
+#second-content {
+	width: 1080px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+/* 二级菜单 */
+#second-menu{
+	width:1030px;
+	margin:0 auto;
+}
+/* 首页轮播下面的大盒子 */
+#big-box{
+	width:1080px;
+	margin:0 auto;
+}
